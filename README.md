@@ -2,9 +2,11 @@
 Interfaz de inicio de sesion con Flask y Python
 
 //crear_entorno_virtual
+
 python -m venv env
 
 //activar_entorno virtual
+
 env/Scripts/activate
 
 //instalar_librerias_cuando_el_entorno_virtual_este_activo
