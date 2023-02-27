@@ -1,8 +1,10 @@
 from flask import Flask, render_template, request,redirect, url_for
-
+from flask_mysqldb import MySQL
 from config import config
 
 app=Flask(__name__)
+
+db=MySQL(app)
 
 @app.route('/')
 def index():
