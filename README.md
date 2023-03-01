@@ -26,3 +26,4 @@ pip install pylint
 
 pip install flask flask-login flask-mysqldb flask-WTF
 
+agregar base de datos MySQL "flask-login"
